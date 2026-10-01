@@ -1,0 +1,6 @@
+Test count: 29 passed (python -m pytest -q).
+Local implementation commit hash: 67e1edb3e5515a3cbd53a37204cb3b0d4736a1f3
+This report is committed in the subsequent documentation commit; the hash above identifies the tested implementation.
+Installed CLI demo runtime: 0.865 seconds, below the 5-second acceptance limit.
+
+Built Sparrow Project Health Monitor as a local, CPU-only Python CLI with fixtures, run, report, risks and check commands, pure deterministic rules for overdue, over-budget and blocked projects, strict JSON validation, atomic result/report writes, Markdown and JSON provenance banners, 200 labelled synthetic records with independent hand-computed expectations, and a five-record example. All planted cases and exact integer totals matched, with zero synthetic false positives; 29 tests cover adversarial values, malformed input, empty inputs, Unicode, determinism and report failures. README, evidence, domain lessons and the pending two-week real-use verdict are recorded. No real savings or predictive accuracy is claimed. No publication was performed.
